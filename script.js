@@ -13,8 +13,8 @@ book.displayInfo(); // "Title: BookName1, Author: Author1, Pages: 123"*/
 
 class Book {
     title;
-    author = '';
-    pages = 0;
+    author;
+    pages;
 
     constructor(title, author, pages) {
         this.title = title;
